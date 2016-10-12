@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link rel="stylesheet" href="css/base.css">
+<!--<link rel="stylesheet" href="css/bootstrap.css">
+<script src="JS/jquery.js"></script>
+<script src="JS/bootstrap.min.js"></script>-->
+</head>
+
+<body bgcolor="#f2f2f2">
+<div class="main">
+	<header class="header">
+    	<img class="logo" src="images/logo.jpg" />
+        <a href="#" id="myorder">我的订单</a>
+    </header>
+    <div class="banner">
+    	<img src="images/banner.png"  width="100%" />
+        <a class="bannerlink-1" href="#">请戳此进入</a>
+    </div>
+    <div id="search">
+    	<input type="search" placeholder="输入关键字搜索商品">
+    </div>
+    <div class="nav">
+    	<a href="#" class="nav-travel">旅行基地</a>
+        <a href="#" class="nav-all">所有产品</a>
+        <a href="#" class="nav-bulk">一起团购</a>
+        <a href="#" class="nav-service">联系客服</a>
+    </div>
+    <div class="hottest">
+    	<h2>最热商品</h2>
+  		<div class="container">           
+            <div class="goods">
+                <img alt="140x140" src="images/hottest/goods_1.png"/>
+                <h3>
+                    阿思根牧羊羊棒骨<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-1">
+                    	￥78
+                    </h6>
+                    <div class="goods-car"></div>
+                </div>
+            </div>
+            <div class="goods">
+                <img alt="140x140" src="images/hottest/goods_2.png" />
+                <h3>
+                    阿思根牧羊整羊礼包<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-1">
+                    	￥1988
+                    </h6>
+                    <div class="goods-car"></div>
+                </div>
+            </div>
+            <div class="goods">
+                <img alt="140x140" src="images/hottest/goods_3.png" />
+                <h3>
+                    阿思根牧羊羊肉卷<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-1">
+                    	￥138
+                    </h6>
+                    <div class="goods-car"></div>
+                </div>
+            </div> 
+            <div class="goods">
+                <img alt="140x140" src="images/hottest/goods_1.png"/>
+                <h3>
+                    阿思根牧羊羊棒骨<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-1">
+                    	￥78
+                    </h6>
+                    <div class="goods-car"></div>
+                </div>
+            </div>
+            <div class="goods">
+                <img alt="140x140" src="images/hottest/goods_2.png" />
+                <h3>
+                    阿思根牧羊整羊礼包<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-1">
+                    	￥1988
+                    </h6>
+                    <div class="goods-car"></div>
+                </div>
+            </div>
+            <div class="goods">
+                <img alt="140x140" src="images/hottest/goods_3.png" />
+                <h3>
+                    阿思根牧羊羊肉卷<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-1">
+                    	￥138
+                    </h6>
+                    <div class="goods-car"></div>
+                </div>
+            </div> 
+        </div>
+    </div><!--最热商品-->
+    <div class="banner">
+    	<img src="images/banner_2.png"  width="100%" />
+        <a class="bannerlink-2" href="#">报名加入</a>
+    </div>
+    <div class="hottest" style="margin-top:0px;">
+    	<h2>一起团购</h2>
+  		<div class="container">           
+            <div class="goods position">
+                <img alt="140x140" src="images/hottest/goods_1.png"/>
+                <h3>
+                    阿思根牧羊羊棒骨<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-2">
+                    	￥788
+                    </h6>
+                    <h5 class="oldprice fontstyle-3">
+                    	￥1350
+                    </h5>
+                    <button class="btn-joinbulk" onClick="javascript:void(0);">去参团</button>
+                </div>
+                <time>12:12:12</time>
+                <img class="bulk-logo" src="images/bulk_logo.png"/>
+            </div>
+            <div class="goods position">
+                <img alt="140x140" src="images/hottest/goods_2.png" />
+                <h3>
+                    阿思根牧羊整羊礼包<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-2">
+                    	￥788
+                    </h6>
+                    <h5 class="oldprice fontstyle-3">
+                    	￥1350
+                    </h5>
+                    <button class="btn-joinbulk" onClick="javascript:void(0);">去参团</button>
+                </div>
+                <time>12:12:12</time>
+                <img class="bulk-logo" src="images/bulk_logo.png"/>
+            </div>
+            <div class="goods position">
+                <img alt="140x140" src="images/hottest/goods_3.png" />
+                <h3>
+                    阿思根牧羊羊肉卷<br />
+                    150g/包
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-2">
+                    	￥788
+                    </h6>
+                    <h5 class="oldprice fontstyle-3">
+                    	￥1350
+                    </h5>
+                    <button class="btn-joinbulk" onClick="javascript:void(0);">去参团</button>
+                </div>
+                <time>12:12:12</time>
+                <img class="bulk-logo" src="images/bulk_logo.png"/>
+            </div>             
+        </div>
+    </div><!--一起团购-->
+    <div class="banner">
+    	<img src="images/banner_3.png"  width="100%" />
+        <a class="bannerlink-3" href="#">点击预定</a>
+    </div>
+    <div class="hottest" style="margin-top:0px;">
+    	<h2>旅行基地</h2>
+  		<div class="container">           
+            <div class="trips">
+                <img alt="140x140" src="images/trip/trip_1.png"/>
+                <h3>
+                    阿思根牧羊羊棒骨<br />
+                    <span class="fontstyle-4">预约行程</span>
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-5">
+                    	￥1988/位
+                    </h6>
+                    <button class="btn-appoint" onClick="javascript:void(0);">预约行程</button>
+                </div>
+            </div>
+            <div class="trips">
+                <img alt="140x140" src="images/trip/trip_2.png" />
+                <h3>
+                    阿思根牧羊整羊礼包<br>
+                    <span class="fontstyle-4">预约行程</span>
+                </h3>
+				<div class="clear">
+                    <h6 class="price fontstyle-5">
+                    	￥1988/位
+                    </h6>
+                    <button class="btn-appoint" onClick="javascript:void(0);">预约行程</button>
+                </div>
+			</div>
+            <div class="trips">
+                <img alt="140x140" src="images/trip/trip_3.png" />
+                <h3>
+                    阿思根牧羊羊肉卷<br />
+                    <span class="fontstyle-4">预约行程</span>
+                </h3>
+                <div class="clear">
+                    <h6 class="price fontstyle-5">
+                    	￥1988/位
+                    </h6>
+                    <button class="btn-appoint" onClick="javascript:void(0);">预约行程</button>
+                </div>
+            </div>  
+        </div>
+    </div><!--旅行基地-->
+    <div class="company">
+    	<h6>司马驿(北京)文化旅游有限公司<br/>
+        	荣誉出品
+        </h6>
+    </div>
+    <footer>
+    	<a href="#" class="menu-home">首页</a>
+        <a href="#" class="menu-type">分类</a>
+        <a href="#" class="menu-new">最新</a>
+        <a href="#" class="menu-shopcar">购物车</a>
+    </footer>
+</div>
+</body>
+</html>
